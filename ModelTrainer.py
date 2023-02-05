@@ -6,7 +6,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor
 import pickle
-from HousePriceModel.Config import Config
+from Config import Config
 
 init_object= Config() #initialising the object
 

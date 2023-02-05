@@ -1,11 +1,11 @@
 import pickle
 import pandas as pd
-from HousePriceModel.Config import Config
+from Config import Config
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
-from HousePriceModel.SyntheticData import getsyntheticdata
+from SyntheticData import getsyntheticdata
 import numpy as np
 
 init_object = Config()  # initialising the object

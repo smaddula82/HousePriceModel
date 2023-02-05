@@ -1,5 +1,5 @@
 from faker import Faker
-from HousePriceModel.Config import Config
+from Config import Config
 import pandas as pd
 
 init_object = Config()
