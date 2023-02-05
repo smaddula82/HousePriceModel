@@ -1,0 +1,14 @@
+settings:
+  data_path: ./data/
+  data_file : train.csv
+  test_file : test.csv
+  streaming_file : streamingdata.txt
+  kafka_host : localhost
+  logs_path : ./logs/
+  project_name : HouseSalePrice
+  log_leve: DEBUG
+
+model:
+  model_path: ./models/
+  model_file: HousePricePredict.sav
+
